@@ -1,8 +1,3 @@
-# OpenGL-Engine
+# OpenGL Engine
 
-Hello world!
-ASDHASUIHDISIUSU
-12312312312
-
-
-...
+Engine baseada em OpenGL.
