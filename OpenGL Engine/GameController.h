@@ -13,6 +13,7 @@ private:
 	ShaderProgram *_program;
 	Texture *_texture;
 
+	float _rotation;
 	GLuint _textureId;
 
 public:

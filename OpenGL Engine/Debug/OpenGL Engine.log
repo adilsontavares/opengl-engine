@@ -1,21 +1,4 @@
-﻿  TextureLoader.cpp
-d:\desenvolvimento\team foundation server\opengl-engine\opengl engine\textureloader.cpp(29): warning C4018: '<': signed/unsigned mismatch
-  Texture.cpp
-  Source.cpp
-  ShaderProgram.cpp
-d:\desenvolvimento\team foundation server\opengl-engine\opengl engine\shaderprogram.cpp(63): warning C4800: 'GLboolean': forcing value to bool 'true' or 'false' (performance warning)
-  ShaderManager.cpp
-  Shader.cpp
-d:\desenvolvimento\team foundation server\opengl-engine\opengl engine\shader.cpp(35): warning C4838: conversion from 'unsigned int' to 'const GLint' requires a narrowing conversion
-d:\desenvolvimento\team foundation server\opengl-engine\opengl engine\shader.cpp(67): warning C4800: 'GLboolean': forcing value to bool 'true' or 'false' (performance warning)
-  Mesh.cpp
-  Log.cpp
-  lodepng.cpp
-  GameController.cpp
-  File.cpp
-  ApplicationController.cpp
-  Application.cpp
-  Generating Code...
-d:\desenvolvimento\team foundation server\opengl-engine\opengl engine\texture.cpp(35): warning C4715: 'Texture::getPixelAt': not all control paths return a value
+﻿  GameController.cpp
+d:\desenvolvimento\team foundation server\opengl-engine\opengl engine\gamecontroller.cpp(67): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
   OpenGL Engine.vcxproj -> D:\Desenvolvimento\Team Foundation Server\OpenGL-Engine\Debug\OpenGL Engine.exe
   OpenGL Engine.vcxproj -> D:\Desenvolvimento\Team Foundation Server\OpenGL-Engine\Debug\OpenGL Engine.pdb (Partial PDB)

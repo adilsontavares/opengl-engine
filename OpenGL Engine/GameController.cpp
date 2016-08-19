@@ -2,11 +2,13 @@
 #include "ShaderManager.h"
 #include "TextureLoader.h"
 #include <glm/glm.hpp>
+#include <glm/gtc/matrix_transform.hpp>
 
 GameController::GameController()
 {
 	_texture = TextureLoader::loadPNG("C:/Users/Adilson/Desktop/hello.png");
-	
+	_rotation = 0;
+
 	glEnable(GL_TEXTURE_2D);
 
 	glGenTextures(1, &_textureId);
@@ -39,7 +41,7 @@ GameController::GameController()
 		0, 0, 1
 	};
 
-	const GLfloat uvs[] = 
+	const GLfloat uvs[] =
 	{
 		0, 0,
 		1, 0,
@@ -62,6 +64,7 @@ GameController::GameController()
 
 void GameController::update(float dt)
 {
+
 }
 
 void GameController::render()
@@ -85,6 +88,13 @@ void GameController::render()
 	glBindTexture(GL_TEXTURE_2D, _textureId);
 	GLuint tex = glGetUniformLocation(_program->getId(), "mainTexture");
 	glUniform1i(tex, 0);
+
+	GLuint mvploc = glGetUniformLocation(_program->getId(), "MVP");
+	glm::mat4 mvp = glm::mat4(1.0f);
+	mvp = glm::scale(mvp, glm::vec3(0.6, 0.6, 0.6));
+	mvp = glm::rotate(mvp, _rotation, glm::vec3(0, 1, 0));
+	
+	glUniformMatrix4fv(mvploc, 1, GL_FALSE, &mvp[0][0]);
 
 	glDrawArrays(GL_TRIANGLES, 0, 3);
 
