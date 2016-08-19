@@ -1,6 +1,7 @@
 #include "GameController.h"
 #include "ShaderManager.h"
 #include "TextureLoader.h"
+#include <glm/glm.hpp>
 
 GameController::GameController()
 {
