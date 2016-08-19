@@ -1,4 +1,3 @@
-﻿  GameController.cpp
-d:\desenvolvimento\team foundation server\opengl-engine\opengl engine\gamecontroller.cpp(67): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+﻿  Window.cpp
   OpenGL Engine.vcxproj -> D:\Desenvolvimento\Team Foundation Server\OpenGL-Engine\Debug\OpenGL Engine.exe
   OpenGL Engine.vcxproj -> D:\Desenvolvimento\Team Foundation Server\OpenGL-Engine\Debug\OpenGL Engine.pdb (Partial PDB)

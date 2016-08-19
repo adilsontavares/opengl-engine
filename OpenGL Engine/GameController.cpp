@@ -6,6 +6,10 @@
 
 GameController::GameController()
 {
+}
+
+void GameController::windowDidLoad()
+{
 	_texture = TextureLoader::loadPNG("C:/Users/Adilson/Desktop/hello.png");
 	_rotation = 0;
 
@@ -59,12 +63,11 @@ GameController::GameController()
 	glBindBuffer(GL_ARRAY_BUFFER, _vb[2]);
 	glBufferData(GL_ARRAY_BUFFER, sizeof(uvs), colors, GL_STATIC_DRAW);
 
-	setBackgroundColor(1, 1, 1);
 }
 
 void GameController::update(float dt)
 {
-
+	_rotation += glm::radians(360.0) * dt;
 }
 
 void GameController::render()

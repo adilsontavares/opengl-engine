@@ -1,10 +1,10 @@
 #pragma once
 
-#include "ApplicationController.h"
+#include "WindowController.h"
 #include "ShaderProgram.h"
 #include "Texture.h"
 
-class GameController : public ApplicationController
+class GameController : public WindowController
 {
 private:
 
@@ -21,5 +21,7 @@ public:
 
 	virtual void update(float dt);
 	virtual void render();
+
+	virtual void windowDidLoad();
 };
 

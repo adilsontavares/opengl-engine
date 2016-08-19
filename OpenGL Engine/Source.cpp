@@ -1,17 +1,16 @@
 #include "Application.h"
 #include "GameController.h"
+#include "Window.h"
 
 #include <iostream>
-#include <GLFW\glfw3.h>
 
 using namespace std;
 
 int main(int argc, char *args[])
 {
-	glutInit(&argc, args);
-	glfwInit();
-
 	Application *app = Application::mainApp();
-	app->useController(new GameController());
+	app->initWindow("Hello, OpenGL!", 800, 600, new GameController());
 	return app->mainLoop();
-}
+
+	return 0;
+};

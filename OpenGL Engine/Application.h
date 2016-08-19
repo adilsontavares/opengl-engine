@@ -2,31 +2,23 @@
 	
 #include <iostream>
 #include "ShaderProgram.h"
-#include "ApplicationController.h"
+#include "Window.h"
+#include "WindowController.h"
 
 class Application
 {
 private:
 
-	static void init();
-	static void update();
-	static void loop();
-	static void display();
-	static void reshape(int width, int height);
+	Window *_mainWindow;
 
-	static ShaderProgram *_defaultProgram;
-	static ApplicationController *_controller;
-
-	Application(const std::string& windowTitle);
+	Application();
 	~Application();
-
-	static void preloadShaders();
 
 public:
 
 	static Application *mainApp();
 
-	void useController(ApplicationController *controller);
 	int mainLoop();
-};
 
+	void initWindow(const char *title, int width, int height, WindowController *controller);
+};
