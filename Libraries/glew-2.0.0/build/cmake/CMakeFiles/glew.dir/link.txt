@@ -1,0 +1,1 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -O3 -DNDEBUG -dynamiclib -Wl,-headerpad_max_install_names  -o lib/libGLEW.dylib -install_name /Users/adilsontavares/Desktop/glew-2.0.0/build/cmake/lib/libGLEW.dylib CMakeFiles/glew.dir/Users/adilsontavares/Desktop/glew-2.0.0/src/glew.c.o -framework OpenGL 

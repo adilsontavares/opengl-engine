@@ -1,0 +1,10 @@
+/Users/adilsontavares/Desktop/glew-2.0.0/build/cmake/CMakeFiles/install/strip.dir
+/Users/adilsontavares/Desktop/glew-2.0.0/build/cmake/CMakeFiles/edit_cache.dir
+/Users/adilsontavares/Desktop/glew-2.0.0/build/cmake/CMakeFiles/rebuild_cache.dir
+/Users/adilsontavares/Desktop/glew-2.0.0/build/cmake/CMakeFiles/install.dir
+/Users/adilsontavares/Desktop/glew-2.0.0/build/cmake/CMakeFiles/glewinfo.dir
+/Users/adilsontavares/Desktop/glew-2.0.0/build/cmake/CMakeFiles/glew_s.dir
+/Users/adilsontavares/Desktop/glew-2.0.0/build/cmake/CMakeFiles/list_install_components.dir
+/Users/adilsontavares/Desktop/glew-2.0.0/build/cmake/CMakeFiles/visualinfo.dir
+/Users/adilsontavares/Desktop/glew-2.0.0/build/cmake/CMakeFiles/glew.dir
+/Users/adilsontavares/Desktop/glew-2.0.0/build/cmake/CMakeFiles/install/local.dir
